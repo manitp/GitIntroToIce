@@ -1,0 +1,81 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffff89bc"
+    android:id="@+id/frame">
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/num1"
+        android:layout_gravity="left|center_vertical"
+        android:background="#ff4eff5f"
+        android:text="num1" />
+
+    <EditText
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:layout_gravity="right|center_vertical"
+        android:background="#ff3acdff"
+        android:text="num2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:text="add it"
+        android:id="@+id/button"
+        android:layout_gravity="left|bottom"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="103dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="sum"
+        android:id="@+id/sum"
+        android:layout_gravity="right|bottom"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Add"
+        android:id="@+id/add"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/dollar"
+        android:layout_gravity="left|top"
+        android:background="#ff3cffac"
+        android:text="dollar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:text="convert"
+        android:id="@+id/convert"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#fffff173"
+        android:onClick="onButtonConvert" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="        baht"
+        android:id="@+id/baht"
+        android:layout_gravity="right|top"
+        android:background="#ff62fff5" />
+
+</FrameLayout>
